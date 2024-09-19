@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:elytra",
 			"components": {
-            	"minecraft:custom_model_data": 2
-        	}
+         "minecraft:custom_model_data": 2
+      }
 		},
 		"title": "Smithing Armored Elytra",
 		"description": [

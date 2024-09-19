@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:smithing_transform",
+    "base": {
+	    "item": "minecraft:diamond_chestplate"
+	},
+	"addition": {
+	    "item": "minecraft:elytra"
+	},
+    "result": {
+        "id": "minecraft:elytra",
+        "components": {
+            "minecraft:custom_model_data": 1,
+            "minecraft:item_name": "'Diamond Chestplate with Elytra'",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "id": "minecraft:generic.armor",
+                        "type": "minecraft:generic.armor",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    },
+                    {
+                        "id": "minecraft:generic.armor_toughness",
+                        "type": "minecraft:generic.armor_toughness",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    }
+                ]
+            }
+        }
+	}
+}

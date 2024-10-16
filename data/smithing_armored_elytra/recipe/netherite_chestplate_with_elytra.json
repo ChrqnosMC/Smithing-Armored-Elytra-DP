@@ -1,8 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-    "template": {
-	    "item": "minecraft:netherite_upgrade_smithing_template"
-	},
+    "addition": "minecraft:netherite_ingot",
     "base": {
 	    "item": "minecraft:diamond_chestplate",
         "components": {
@@ -11,15 +9,14 @@
             "minecraft:glider": {}
         }
 	},
-	"addition": {
-	    "item": "minecraft:netherite_ingot"
-	},
     "result": {
+        "count": 1,
         "id": "minecraft:netherite_chestplate",
         "components": {
             "minecraft:custom_model_data": 1,
             "minecraft:item_name": "'Netherite Chestplate with Elytra'",
             "minecraft:glider": {}
         }
-	}
+	},
+    "template": "minecraft:netherite_upgrade_smithing_template"
 }

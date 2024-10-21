@@ -1,0 +1,37 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_diamond_chestplate_with_elytra": {
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:diamond_chestplate_with_elytra",
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:item_name": "'Diamond Chestplate with Elytra'",
+                "minecraft:glider": {}
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "smithing_armored_elytra:netherite_chestplate_with_elytra"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_diamond_chestplate_with_elytra"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "smithing_armored_elytra:netherite_chestplate_with_elytra"
+      ]
+    }
+  }

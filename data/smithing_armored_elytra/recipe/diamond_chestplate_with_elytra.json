@@ -1,14 +1,7 @@
 {
 	"type": "minecraft:smithing_transform",
-    "template": {
-	    "item": "minecraft:diamond"
-	},
-    "base": {
-	    "item": "minecraft:diamond_chestplate"
-	},
-	"addition": {
-	    "item": "minecraft:elytra"
-	},
+    "addition": "minecraft:elytra",
+    "base": "minecraft:diamond_chestplate",
     "result": {
         "id": "minecraft:elytra",
         "components": {
@@ -33,5 +26,6 @@
                 ]
             }
         }
-	}
+	},
+    "template": "minecraft:diamond"
 }

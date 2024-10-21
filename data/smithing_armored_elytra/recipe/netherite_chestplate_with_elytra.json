@@ -1,8 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-    "template": {
-	    "item": "minecraft:netherite_upgrade_smithing_template"
-	},
+    "addition": "minecraft:netherite_ingot",
     "base": {
 	    "item": "minecraft:elytra",
         "components": {
@@ -27,9 +25,6 @@
                 ]
             }
         }
-	},
-	"addition": {
-	    "item": "minecraft:netherite_ingot"
 	},
     "result": {
         "id": "minecraft:elytra",
@@ -62,5 +57,6 @@
                 ]
             }
         }
-	}
+	},
+    "template": "minecraft:netherite_upgrade_smithing_template"
 }

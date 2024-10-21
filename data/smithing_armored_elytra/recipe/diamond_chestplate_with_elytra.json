@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:smithing_transform",
+    "addition": "minecraft:elytra",
+    "base": "minecraft:diamond_chestplate",
+    "result": {
+        "id": "minecraft:diamond_chestplate",
+        "components": {
+            "minecraft:custom_model_data": 1,
+            "minecraft:item_name": "'Diamond Chestplate with Elytra'",
+            "minecraft:glider": {}
+        }
+	},
+    "template": "minecraft:diamond"
+}

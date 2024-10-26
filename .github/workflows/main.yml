@@ -40,6 +40,7 @@ jobs:
         with:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: bUpLiBw8
+          game-version-filter: none
           name: Smithing Armored Elytra DP ${{env.branch}}-${{env.tag}}
           version: ${{env.tag}}
           files: |

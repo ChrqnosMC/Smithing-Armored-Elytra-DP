@@ -5,8 +5,8 @@
     "result": {
         "id": "minecraft:diamond_chestplate",
         "components": {
-            "minecraft:custom_model_data": 1,
             "minecraft:item_name": "'Diamond Chestplate with Elytra'",
+            "minecraft:item_model": "smithing_armored_elytra:diamond_chestplate_with_elytra",
             "minecraft:glider": {}
         }
 	},
